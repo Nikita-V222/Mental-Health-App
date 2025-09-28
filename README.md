@@ -1,35 +1,36 @@
-# 🧠 Mental Health App
+# MentalHealthApp  
 
-A comprehensive mental health application built using the **MERN stack** to help users monitor and improve their mental well-being.
+## https://mindfulness-mental-health.netlify.app/
 
-🌐 **Live Demo:** [https://mindfulness-mental-health.netlify.app](https://mindfulness-mental-health.netlify.app)
+MentalHealthApp is a comprehensive mental health application built using the MERN stack. It offers several features to help users manage their mental well-being, including cookie session login, a mood tracker, an AI therapist, a mood quiz, and anonymous sharing.
 
----
+## Features
 
-## ✨ Features
+### Cookie Session Login
+- Secure user authentication using cookie sessions to maintain user login states across different sessions. So also with an unauthorised acces you can't access certain pages of the application. 
 
-* **🔐 Secure Cookie Session Login** — Maintains user login state across sessions and protects restricted pages from unauthorized access.
-* **📊 Mood Tracker** — Log daily moods and view progress over time.
-* **🤖 AI Therapist Chat** — Chat with an AI-powered therapist (Gemini API) for instant emotional support and guidance.
-* **🧩 Mood Quiz** — Take quizzes to better understand your current mental state and receive personalized feedback.
-* **🕵️‍♀️ Anonymous Sharing** — Safely share thoughts and feelings with the community without revealing identity.
-* **⚡ Full CRUD Functionality** — Manage user profiles, articles, and posts seamlessly.
+### Mood Tracker
+- Tracks your daily mood and logs it in the database, allowing users to monitor their mental health over time.
 
----
+### AI Therapist
+- Chat with an AI therapist to discuss your feelings and get instant responses. This feature uses the Gemini API for natural language processing to provide helpful advice and support.
 
-## 🛠️ Tech Stack
+### Mood Quiz
+- Take a quiz to understand your current mood better. The responses are analyzed using the Gemini API, and a personalized feedback report is generated based on your answers.
 
-* **Frontend:** React.js, HTML, CSS, JavaScript
-* **Backend:** Node.js, Express.js
-* **Database:** MongoDB
-* **AI / NLP:** Gemini API (via RapidAPI) for AI therapist & quiz analysis
-* **Authentication:** Cookie-based sessions for secure login
+### Anonymous Sharing
+- Share your thoughts and feelings anonymously with the community. This feature ensures that users can express themselves freely without revealing their identity.
 
----
+### CRUD Functionality
+- Full CRUD (Create, Read, Update, Delete) operations for user management and article management, allowing users to manage their profiles and content seamlessly.
 
-## 🚀 Deployment
+## Technologies Used
 
-* **Frontend:** Netlify
-* **Backend:** (mention if you deployed e.g. Render / Heroku / Railway / Vercel)
+- **MongoDB:** Database to store user data, mood logs, and shared posts.
+- **Express.js:** Backend framework to handle API requests and server-side logic.
+- **React:** Frontend library to build a responsive and interactive user interface.
+- **Node.js:** Runtime environment to execute JavaScript on the server.
+- **HTML, CSS, JavaScript:** Core web technologies for building the frontend.
+- **RapidAPI:** Platform used to integrate the Gemini API for AI therapist and quiz responses.
+- **Gemini API:** Used for natural language processing to power the AI therapist and generate quiz feedback.
 
----
