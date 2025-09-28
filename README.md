@@ -1,7 +1,3 @@
-Here’s a cleaner, **GitHub-ready** README section for your project:
-
----
-
 # 🧠 Mental Health App
 
 A comprehensive mental health application built using the **MERN stack** to help users monitor and improve their mental well-being.
@@ -37,11 +33,3 @@ A comprehensive mental health application built using the **MERN stack** to help
 * **Backend:** (mention if you deployed e.g. Render / Heroku / Railway / Vercel)
 
 ---
-
-## 📸 Screenshots
-
-*(You can add screenshots of your app here to make it more appealing.)*
-
----
-
-Would you like me to make it look even more **visually attractive** with emojis, badges, and a table of contents (very common on GitHub)?
